@@ -1,0 +1,373 @@
+<mxfile host="app.diagrams.net" modified="2023-10-30T06:24:57.282Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="pKj1pEMFS_F1_Ql8gnPa" version="22.0.8" type="device" pages="2">
+  <diagram name="Page-1" id="6FZozcyZUqcYuDXdWh_8">
+    <mxGraphModel dx="4435" dy="1975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-1" target="vbahfQEjgKhKxEBAWPp8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-1" value="Start_StudyHours" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-2" target="vbahfQEjgKhKxEBAWPp8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-2" value="INPUT name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-3" target="vbahfQEjgKhKxEBAWPp8-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-3" value="newMonth = INPUT &quot;Do you want to enter data for a new month?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="290.5" y="600" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-5" target="vbahfQEjgKhKxEBAWPp8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-5" value="totalHours = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-6" target="vbahfQEjgKhKxEBAWPp8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-6" value="hours_i = INPUT &quot;How many hours did you spend studying in week&quot; i &quot;?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="760" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-7" target="vbahfQEjgKhKxEBAWPp8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-7" value="i = 1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-9" target="vbahfQEjgKhKxEBAWPp8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-9" value="i += 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-13" target="vbahfQEjgKhKxEBAWPp8-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="560" />
+              <mxPoint x="210" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-13" target="jX2BZYwRu3wBl6ifN49M-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-13" value="IF i &amp;lt;= 4" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-65" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-16" target="vbahfQEjgKhKxEBAWPp8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-16" value="totalHours += hours_i" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-145" y="700" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-20" target="vbahfQEjgKhKxEBAWPp8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-20" value="monthNum = 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="323" y="260" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-21" target="jX2BZYwRu3wBl6ifN49M-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vbahfQEjgKhKxEBAWPp8-21" value="IF newMonth == &quot;yes&quot;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385.5" y="962" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbahfQEjgKhKxEBAWPp8-21" target="jX2BZYwRu3wBl6ifN49M-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="880" as="sourcePoint" />
+            <mxPoint x="-25" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="386" y="1000" />
+              <mxPoint x="-25" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jX2BZYwRu3wBl6ifN49M-1" target="vbahfQEjgKhKxEBAWPp8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-1" value="PRINT &quot;Entering data for month&quot; monthNum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="890" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jX2BZYwRu3wBl6ifN49M-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-25" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-19" value="monthNum += 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="460" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-22" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="960" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-23" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="528" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-24" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="498" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jX2BZYwRu3wBl6ifN49M-25" target="jX2BZYwRu3wBl6ifN49M-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-25" value="PRINT &quot;Calculating total and average...&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1080" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jX2BZYwRu3wBl6ifN49M-26" target="jX2BZYwRu3wBl6ifN49M-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-26" value="avgHours = totalHours / (monthNum * 4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jX2BZYwRu3wBl6ifN49M-29" target="jX2BZYwRu3wBl6ifN49M-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-29" value="PRINT name &quot;, the total hours you spend studying during these months is&quot; totalHours&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1270" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-31" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1038" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jX2BZYwRu3wBl6ifN49M-32" target="jX2BZYwRu3wBl6ifN49M-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-32" value="PRINT &quot;The overall average per week is&quot; avgHours" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1360" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jX2BZYwRu3wBl6ifN49M-34" value="End_StudyHours" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1460" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M61s5AGEHdA2Pbsuj6W5" name="Page-2">
+    <mxGraphModel dx="3457" dy="1436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iDIsNodAugzC5223pwOJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-2" target="iDIsNodAugzC5223pwOJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-2" value="Start_StudyHours" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-4" target="iDIsNodAugzC5223pwOJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-4" value="INPUT name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-6" target="iDIsNodAugzC5223pwOJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.49999999999955" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-6" value="newMonth = INPUT &quot;Do you want to enter data for a new month?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290.5" y="600" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-8" target="iDIsNodAugzC5223pwOJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-8" value="totalHours = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-10" target="iDIsNodAugzC5223pwOJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-10" value="hours_i = INPUT &quot;How many hours did you spend studying in week&quot; i &quot;?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1280" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-12" target="iDIsNodAugzC5223pwOJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-12" value="i = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="1350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-14" target="iDIsNodAugzC5223pwOJ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-14" value="i += 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-17" target="iDIsNodAugzC5223pwOJ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="560" />
+              <mxPoint x="210" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-17" target="iDIsNodAugzC5223pwOJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-17" value="IF i &amp;lt;= 4" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-19" target="iDIsNodAugzC5223pwOJ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-19" value="totalHours += hours_i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="1210" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-21" target="iDIsNodAugzC5223pwOJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-21" value="monthNum = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="260" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-23" target="iDIsNodAugzC5223pwOJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-23" target="iDIsNodAugzC5223pwOJ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-23" value="IF newMonth == &quot;yes&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385.5" y="1602" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-26" target="iDIsNodAugzC5223pwOJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-26" value="PRINT &quot;Entering data for month&quot; monthNum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1420" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-25" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-28" value="monthNum += 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="460" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-29" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1600" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-30" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="528" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-31" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="498" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-33" target="iDIsNodAugzC5223pwOJ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-33" value="PRINT &quot;Calculating total and average...&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1720" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-35" target="iDIsNodAugzC5223pwOJ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-35" value="avgHours = totalHours / (monthNum * 4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-37" target="iDIsNodAugzC5223pwOJ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-37" value="PRINT name &quot;, the total hours you spend studying during these months is&quot; totalHours&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1910" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-38" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1678" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-40" target="iDIsNodAugzC5223pwOJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-40" value="PRINT &quot;The overall average per week is&quot; avgHours" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2000" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-41" value="End_StudyHours" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-42" target="iDIsNodAugzC5223pwOJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-42" value="hoursPrev = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="iDIsNodAugzC5223pwOJ-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="1120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-45" value="if hoursPrev == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="1110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-47" target="iDIsNodAugzC5223pwOJ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-47" target="iDIsNodAugzC5223pwOJ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-47" value="IF hoursPrev &amp;lt; hours_i" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="1040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-49" target="iDIsNodAugzC5223pwOJ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-700" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-49" value="IF hoursPrev &amp;gt; hours_i" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-50" target="iDIsNodAugzC5223pwOJ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-50" value="PRINT &quot;Good effort, &quot; name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1060" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-51" value="PRINT &quot;You&#39;ve studied less this week compared to the last, &quot; name &quot;. Try to keep your hours up!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="940" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-52" target="iDIsNodAugzC5223pwOJ-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-52" value="PRINT &quot;Great job, &quot; name &quot;!You &#39;ve increased your study hours.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="740" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-700" y="740" as="sourcePoint" />
+            <mxPoint x="-25" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-700" y="720" />
+              <mxPoint x="-25" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-53" value="PRINT &quot;Good consistency, &quot; name &quot;! Keep it up!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="720" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.552;entryY=0.737;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-51" target="iDIsNodAugzC5223pwOJ-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-56" target="iDIsNodAugzC5223pwOJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-56" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="680" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iDIsNodAugzC5223pwOJ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.465;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iDIsNodAugzC5223pwOJ-50" target="iDIsNodAugzC5223pwOJ-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
