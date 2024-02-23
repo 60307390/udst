@@ -14,7 +14,7 @@ def guessNumber(minRange, maxRange, difficulty):
         # for an arbitary number N, let difficulty be d. given 0 <= N <= 100
         # probability of N <= d is P(N<=d) = d/100, where the program offers no hints
         # probability of N > d is P(N>d) = (100-d)/100, where the program offers hints
-        if difficulty >= random.randint(0, 99):
+        if difficulty > random.randint(0, 99):
             print("Incorrect guess!")
         else:
             if user_guess > secret_guess:
