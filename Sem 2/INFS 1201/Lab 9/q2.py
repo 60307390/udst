@@ -15,4 +15,3 @@ def calculate_average():
 
     avg_grade = total_grade/num_courses
     print(f"Your average for this semester is: {avg_grade:.2f}")
-

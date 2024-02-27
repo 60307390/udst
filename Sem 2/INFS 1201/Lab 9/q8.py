@@ -35,4 +35,4 @@ def calculate_weighted_average_with_GP():
     print(f"Your cumulative GPA is: {cumulative_GP}")
 
 
-calculate_weighted_average_with_GP()
+#calculate_weighted_average_with_GP()

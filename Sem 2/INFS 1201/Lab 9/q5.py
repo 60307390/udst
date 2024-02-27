@@ -35,4 +35,5 @@ def calculate_weighted_average_with_GP():
     cumulative_GP = (total_grade+initial_grade)/(total_credit+initial_credit)
     print(f"Your cumulative GPA is: {cumulative_GP}")
 
+
 #calculate_weighted_average_with_GP()

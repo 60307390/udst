@@ -22,4 +22,5 @@ def calculate_weighted_average():
         avg_grade = total_grade/total_credit
         print(f"Your average for this semester is: {avg_grade:.2f}")
 
-calculate_weighted_average()
+
+#calculate_weighted_average()

@@ -30,6 +30,10 @@ def calculate_weighted_average_with_GP():
         semester_GP = total_grade/total_credit
         print(f"Your semester GPA is: {semester_GP:.2f}")
 
+
+
+
+
 '''
 print(grade_2_gp(95))
 calculate_weighted_average_with_GP()
