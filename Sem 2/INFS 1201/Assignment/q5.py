@@ -1,4 +1,5 @@
 def topGoalScorers(goalData):
+    'returns the top scorers - players who scored the most goals - from given goal data'
     top_scorers = []
 
     max_goal = 0

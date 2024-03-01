@@ -1,4 +1,5 @@
 def calculateTeamPoints(matchData):
+    'calculates the points for each football team from given match data'
     teams = []
     points = []
 

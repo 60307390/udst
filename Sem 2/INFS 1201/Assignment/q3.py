@@ -1,4 +1,5 @@
 def inputMatchData():
+    'prints a 2D list based on the input of teams, scores, and scoring players given by the user'
     matchData = []
 
     numMatches = int(input("Enter the number of matches: "))

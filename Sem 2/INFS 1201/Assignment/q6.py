@@ -1,6 +1,7 @@
 from q4 import calculateTeamPoints
 
 def highestScoringTeam(data):
+    'returns the highest scoring teams from given match data'
     scores = calculateTeamPoints(data)
     max_score = 0
     for i in scores:
