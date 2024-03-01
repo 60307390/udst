@@ -23,7 +23,7 @@ def calculateTeamPoints(matchData):
         if goal1 < goal2:
             points[teams.index(team2)] += 3
     
-    print(teams, points)
+    #print(teams, points)
 
     team_points = []
     for i in range(len(teams)):
@@ -34,6 +34,8 @@ def calculateTeamPoints(matchData):
 
 
 '''
+#Test cases
+# Sample Run
 matchData = [
     ['Qatar', 'Iraq', 3, 2],
     ['Jordan', 'Qatar', 1, 1],
@@ -42,4 +44,6 @@ matchData = [
 
 team_points = calculateTeamPoints(matchData)
 print(team_points)
+# Expected output: [['Qatar', 4], ['Iraq', 0], ['Jordan', 1], ['Palestine', 3]]
+
 '''
