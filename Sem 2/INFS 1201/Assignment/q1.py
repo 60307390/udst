@@ -1,5 +1,13 @@
 def checkMatchUpDistance(prize, fan):
-    'returns the match-up distance between the prize ticket number and a given fan\'s ticket number'
+    '''calculates the match-up distance between the prize ticket number and a given fan\'s ticket number
+    
+    paramaters: 
+    prize   -- the ticket number used for the prize (must be same length as fan)
+    fan     -- the ticket number of the respective fan (must be same length as prize)
+
+    returns: 
+    4-tuple of match-up distance, fan's ticket, difference of string, and a statement of the result
+    '''
     if len(fan) != len(prize):
         return None
     diff_str = ""

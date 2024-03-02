@@ -1,5 +1,12 @@
 def topGoalScorers(goalData):
-    'returns the top scorers - players who scored the most goals - from given goal data'
+    '''gets the top scorers - players who scored the most goals - from given goal data
+    
+    parameters:
+    goalData -- a 1-dimensional list whose three consecutive elements represent team name, player name, and number of goals
+
+    returns:
+    top_scorers -- a 1-dimensional list consisting of 3-tuples of team name, player name, and highest number of goals scored
+    '''
     top_scorers = []
 
     max_goal = 0

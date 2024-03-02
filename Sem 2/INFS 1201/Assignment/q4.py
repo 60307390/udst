@@ -1,5 +1,12 @@
 def calculateTeamPoints(matchData):
-    'calculates the points for each football team from given match data'
+    '''calculates the points for each football team from given match data
+    
+    paramaters:
+    matchData -- a 2-dimensional list consisting of goal data where each row is in format of [team1, team2, goal1, goal2]
+
+    returns:
+    team_points -- a 2-dimensional list consisting the team name and the total points accumulated through games using the match data
+    '''
     teams = []
     points = []
 

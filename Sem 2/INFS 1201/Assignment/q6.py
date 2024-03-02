@@ -1,18 +1,26 @@
 from q4 import calculateTeamPoints
 
-def highestScoringTeam(data):
-    'returns the highest scoring teams from given match data'
-    scores = calculateTeamPoints(data)
+def highestScoringTeam(matchData):
+    '''gets the highest scoring teams from given match data
+    
+    parameters:
+    matchData -- a 1D list consist of 4-tuples in the form of (team1, team2, goal1, goal2)
+
+    returns:
+    max_score    -- highest points throughout each team's total scores
+    highestTeams -- teams who have scored the respective max_score
+    '''
+    scores = calculateTeamPoints(matchData)
     max_score = 0
     for i in scores:
         if i[1] > max_score:
             max_score = i[1]
     
-    highestTeams = [max_score, []]
+    highestTeams = []
     for i in scores:
         if i[1] == max_score:
-            highestTeams[1].append(i[0])
-    return highestTeams
+            highestTeams.append(i[0])
+    return max_score, highestTeams
 
 
 
