@@ -25,7 +25,7 @@ def inputMatchData():
 
         team_data = teams
         for i in scores:
-            team_data.append(int(scores))
+            team_data.append(int(i))
 
         for i in range(len(scores)): 
             team_score = []
