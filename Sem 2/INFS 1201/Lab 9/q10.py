@@ -1,42 +1,38 @@
 ##
 # Gowshikrajan Senthilkumar - 60307390
-# Week9 lab
-# Exercise 9
+# Week11 lab
+# Exercise 10
 
-def matrixProduct(A, B):
-    'Returns the matrix product AB for given rectangular matrices A and B'
-    m = len(A)
-    n = len(B)          # n = len(A[0]) = len(B)
-    p = len(B[0])       # Given B is a rectangular matrix
+from q3 import randomLetter
 
-    C = []
-    for i in range(m):
-        C.append([])
-        for j in range(p):
-            sum = 0
-            for k in range(n):
-                sum += A[i][k] * B[k][j]
-            C[i].append(sum)
+def randomLetterFreq(N):
+    'generates N random letters for a given N and outputs the frequency and mode of the result of N trials'
+    freq_letters = {}
+    max_freq = 0
+
+    # To put random letter frequencies in unsorted dictionary
+    for i in range(N):
+        random_letter = randomLetter()
+        if random_letter not in freq_letters:
+            freq_letters[random_letter] = 0
+        freq_letters[random_letter] += 1
+
+        if max_freq < freq_letters[random_letter]:
+            max_freq = freq_letters[random_letter]
+
+    sorted_letters = sorted(list(freq_letters))
+    sorted_freq_letters = {}
+    max_freq_letters = ""
+
+    # Handles making the sorted dictionary AND to make the list of the mode(s)
+    for i in sorted_letters:
+        sorted_freq_letters[i] = freq_letters[i]
+        if sorted_freq_letters[i] == max_freq:
+            max_freq_letters += i + ' '
     
-    return C
+    print(f"Frequency of letters: {sorted_freq_letters}")
+    print(f"Most frequent letter(s): {max_freq_letters}")
 
 
-
-
-
-'''
-matrix1 = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [10, 11, 12]
-]
-
-matrix2 = [
-    [4, 5, 6],
-    [7, 8, 9],
-    [10, 11, 12]
-]
-
-print(matrixProduct(matrix1, matrix2))
-'''
+num_of_letters = int(input("How many letters do you want at random? "))
+randomLetterFreq(num_of_letters)

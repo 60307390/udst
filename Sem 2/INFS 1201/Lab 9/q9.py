@@ -1,31 +1,34 @@
 ##
 # Gowshikrajan Senthilkumar - 60307390
-# Week9 lab
+# Week11 lab
 # Exercise 9
 
-def matrix_transpose(A):
-    'Returns the transpose Aᵀ, given a matrix A'
-    A_T = []
-    for i in range(len(A[0])):  # Given A is a rectangular matrix
-        A_T.append([])
+from q4 import scoreMCQ
 
-    for i in range(len(A)):
-        for j in range(len(A[i])):
-            A_T[j].append(A[i][j])
-    return A_T
+def curveMCQ(attempts):
+    'curves the MCQ based on the given attempts to optimize average of grades'
+    correct_avg = ""
+    scores = []
+    for i in range(len(attempts[0])):
+        count_T, count_F = 0, 0
+        for j in attempts:
+            if j[i] == 'T':
+                count_T += 1
+            else:
+                count_F += 1
+        if count_T >= count_F:
+            correct_avg += 'T'
+        else:
+            correct_avg += 'F'
+
+    for i in attempts:
+        scores.append(scoreMCQ(i, correct_avg))
+    avg_score = sum(scores)/len(scores)
+
+    print(f"Arranged 'correct' answers: {correct_avg}")
+    print(f"Arranged scores: {scores}")
+    print(f"Best average: {avg_score}")
 
 
-
-
-
-'''
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-    [10, 11, 12],
-    [13, 14, 15]
-]
-
-print(matrix_transpose(matrix))
-'''
+attempts=['TTFTTFFTFT','FFFTTFFTFT','TTFFFFFTFT','TTFFFFFTFT','TTFTTTTTFT','TTTTTTTTTT']
+curveMCQ(attempts)
