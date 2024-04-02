@@ -18,6 +18,7 @@ def grade(lst, correct_str):
     return scores
 
 def curveMCQ(attempts):
+    'returns the adjusted answer key, optimized by the highest minimum score'
     correct = ''
     for i in range(len(attempts[0])):
         correct += 'T'
@@ -33,5 +34,7 @@ def curveMCQ(attempts):
     print(f"Arranged scores: {scores}")
     print(f"Best min grade: {min(scores)}")
 
+'''
 attempts=['TTFTTFFTFT','FFFTTFFTFT','TTFFFFFTFT','TTFFFFFTFT','TTFTTTTTFT','TTTTTTTTTT']
 curveMCQ(attempts)
+'''
