@@ -28,5 +28,26 @@ update invoice_line set price=45200.80 where artwork_id=11;
 update invoice_line set price=3900 where artwork_id=14;
 
 
+# Query 5
+select * from artwork;
+select * from installation;
+insert into exhibition values (6,'2024-05-01','2024-06-28',2);
+insert into installation values(6, 1);
+insert into installation values(6, 8);
+insert into installation values(6, 11);
+insert into installation values(6, 20);
+insert into installation values(6, 16);
+insert into installation values(6, 14);
+insert into installation values(6, 3);
+insert into installation values(6, 19);
+insert into installation values(6, 2);
+insert into installation values(6, 5);
+insert into installation values(6, 7);
+insert into installation values(6, 9);
 
-
+select artwork.title, artwork.media, artist.name from 
+artwork inner join artist
+on artwork.artist_id=artist.artist_id
+where artwork.artwork_id in (
+	select artwork_id from installation where exhibition_id=6
+);
