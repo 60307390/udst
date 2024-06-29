@@ -1,0 +1,32 @@
+db.artist.insertMany([
+	{"_id":1, "name":"John Doe", "email":"john.doe@example.com", "phone":"123-456-789", "bio":"Contemporary artist from New York", "useraccount":{"username":"artist_jdoe", "password":"Passw0rd!"}},
+	{"_id":2,"name":"Jane Smith", "email":"jane.smith@example.com", "phone":"234-567-8901", "bio":"Abstract painter known for vibrant colors", "useraccount":{"username":"artist_jsmith", "password":"Secur3P@ss"}},
+	{"_id":3,"name":"Emily Johnson", "email":"emily.johnson@example.com", "phone":"345-678-9012", "bio":"Modern artist incorporating AI in visual arts", "useraccount":{"username":"artist_ejohn", "password":"EJsaf3pa55"}}
+])
+
+db.artwork.insertMany([
+	{"_id":1,"title":"Sunset Overdrive","media":"Oil on Canvas","date":"2022-05-15","dimensions":"24x36 inches","status":"Available","artist_id":1},
+	{"_id":2,"title":"Abstract Thoughts","media":"Acrylic","date":"2021-11-10","dimensions":"30x40 inches","status":"Sold","artist_id":2},
+	{"_id":3,"title":"Digital Dreams","media":"Digital Print","date":"2023-02-20","dimensions":"1920x1080 pixels","status":"Available","artist_id":3},
+	{"_id":4,"title":"Nature's Embrace","media":"Mixed Media","date":"2022-07-22","dimensions":"20x30 inches","status":"Available","artist_id":1}
+])
+
+db.gallery.insertOne({"_id":1,"location":"New York","size":2000})
+
+db.exhibition.insertMany([
+	{"_id":1,"start":"2023-01-01","end":"2023-01-31","gallery_id":1},
+	{"_id":2,"start":"2023-05-01","end":"2023-05-31","gallery_id":1}
+])
+
+db.customer.insertMany([
+	{"_id":1,"name":"Alice Brown","phone":"456-789-0123","email":"alice.brown@example.com", "useraccount":{"username":"cust_abrown", "password":"Alice123"}},
+	{"_id":2,"name":"Bob White","phone":"567-890-1234","email":"bob.white@example.com", "useraccount":{"username":"cust_bwhite", "password":"Bwhite456"}},
+])
+
+db.visit.insertMany([
+	{"_id":1,"date":"2023-01-15","customer_id":1,"exhibition_id":1},
+	{"_id":2,"date":"2023-02-10","customer_id":2,"exhibition_id":1},
+	{"_id":3,"date":"2023-03-05","customer_id":1,"exhibition_id":2},
+	{"_id":4,"date":"2023-03-15","customer_id":2,"exhibition_id":2},
+	{"_id":5,"date":"2023-03-21","customer_id":1,"exhibition_id":1}
+])

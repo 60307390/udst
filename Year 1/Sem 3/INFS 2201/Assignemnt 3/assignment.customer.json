@@ -1,0 +1,20 @@
+[{
+  "_id": 1,
+  "name": "Alice Brown",
+  "phone": "456-789-0123",
+  "email": "alice.brown@example.com",
+  "useraccount": {
+    "username": "cust_abrown",
+    "password": "Alice123"
+  }
+},
+{
+  "_id": 2,
+  "name": "Bob White",
+  "phone": "567-890-1234",
+  "email": "bob.white@example.com",
+  "useraccount": {
+    "username": "cust_bwhite",
+    "password": "Bwhite456"
+  }
+}]

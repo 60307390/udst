@@ -1,0 +1,30 @@
+[{
+  "_id": 1,
+  "date": "2023-01-15",
+  "customer_id": 1,
+  "exhibition_id": 1
+},
+{
+  "_id": 2,
+  "date": "2023-02-10",
+  "customer_id": 2,
+  "exhibition_id": 1
+},
+{
+  "_id": 3,
+  "date": "2023-03-05",
+  "customer_id": 1,
+  "exhibition_id": 2
+},
+{
+  "_id": 4,
+  "date": "2023-03-15",
+  "customer_id": 2,
+  "exhibition_id": 2
+},
+{
+  "_id": 5,
+  "date": "2023-03-21",
+  "customer_id": 1,
+  "exhibition_id": 1
+}]

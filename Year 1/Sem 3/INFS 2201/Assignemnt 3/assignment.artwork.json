@@ -1,0 +1,36 @@
+[{
+  "_id": 1,
+  "title": "Sunset Overdrive",
+  "media": "Oil on Canvas",
+  "date": "2022-05-15",
+  "dimensions": "24x36 inches",
+  "status": "Available",
+  "artist_id": 1
+},
+{
+  "_id": 2,
+  "title": "Abstract Thoughts",
+  "media": "Acrylic",
+  "date": "2021-11-10",
+  "dimensions": "30x40 inches",
+  "status": "Sold",
+  "artist_id": 2
+},
+{
+  "_id": 3,
+  "title": "Digital Dreams",
+  "media": "Digital Print",
+  "date": "2023-02-20",
+  "dimensions": "1920x1080 pixels",
+  "status": "Available",
+  "artist_id": 3
+},
+{
+  "_id": 4,
+  "title": "Nature's Embrace",
+  "media": "Mixed Media",
+  "date": "2022-07-22",
+  "dimensions": "20x30 inches",
+  "status": "Available",
+  "artist_id": 1
+}]

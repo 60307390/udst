@@ -1,0 +1,33 @@
+[{
+  "_id": 1,
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "123-456-789",
+  "bio": "Contemporary artist from New York",
+  "useraccount": {
+    "username": "artist_jdoe",
+    "password": "Passw0rd!"
+  }
+},
+{
+  "_id": 2,
+  "name": "Jane Smith",
+  "email": "jane.smith@example.com",
+  "phone": "234-567-8901",
+  "bio": "Abstract painter known for vibrant colors",
+  "useraccount": {
+    "username": "artist_jsmith",
+    "password": "Secur3P@ss"
+  }
+},
+{
+  "_id": 3,
+  "name": "Emily Johnson",
+  "email": "emily.johnson@example.com",
+  "phone": "345-678-9012",
+  "bio": "Modern artist incorporating AI in visual arts",
+  "useraccount": {
+    "username": "artist_ejohn",
+    "password": "EJsaf3pa55"
+  }
+}]
