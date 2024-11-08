@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Panorama Cinemas</title>
+   <script>
+      let age = prompt("Enter your age:");
+      while (isNaN(age)) {
+         alert("Please enter a valid age.");
+         age = prompt("Enter your age:");
+      }
+      // valid age
+      if (parseInt(age) >= 13) {
+         alert("You are allowed to see the movie.");
+         document.write("<h1>Panorama Cinemas</h1>");
+         document.write("Congratulation you are allowed to see the movie, enjoy!!");
+      }
+      // if invalid age
+      else {
+         let accompanied = prompt("Are you accompanied by an adult (yes/no)");
+         if (accompanied.toLowerCase() === "yes") {
+            alert("You are allowed to see the movie.");
+            document.write("<h1>Panorama Cinemas</h1>");
+            document.write("Congratulation you are allowed to see the movie, enjoy!!");
+         }
+         else {
+            alert("You are not allowed to see the movie");
+            document.write("<h1>Panorama Cinemas</h1>");
+            document.write("<p>Sorry you are NOT allowed to watch the movie");
+         }
+      }
+   </script>
+</head>
+
+<body>
+   <noscript>
+      Javascript is not enabled.
+   </noscript>
+</body>
+</html>

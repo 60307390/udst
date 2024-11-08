@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length of Rectangle</title>
+    <script>
+        let length = prompt("Enter the length of the rectangle (in meters): ");
+        while (isNaN(length)) {
+            alert("Incorrect input! Try again.");
+            length = prompt("Enter the length of the rectangle (in meters): ")
+        }
+        let width = prompt("Enter the width of the triangle (in meters): ");
+        while (isNaN(width)) {
+            alert("Incorrect input! Try again.");
+            width = prompt("Enter the width of the triangle (in meters): ")
+        }
+        let area = parseInt(length) * parseInt(width);
+        alert("The area of the rectangle is " + area + " meters");
+        document.write("<h1> Rectangle Area Calculator </h1>")
+        document.write("<p>The area of the rectangle is " + area + " meters.</p>")
+    </script>
+</head>
+
+<body>
+   <noscript>JavaScript is not enabled</noscript>
+</body>
+</html>
