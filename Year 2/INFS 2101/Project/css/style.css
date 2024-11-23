@@ -433,6 +433,9 @@ input[type="checkbox"] {
 /* FaQ Page */
 
 .faq-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     margin-left:20px;
 }
 
