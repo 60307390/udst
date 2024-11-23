@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Oswald font-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Oswald & Space Grotesk & Exo font-->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Oswald:wght@500&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/logo/tesseract-logo-transparent-icon.ico" type="image/x-icon">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- Nav Bar - Copy everywhere -->
+    <header>
+        <nav>
+            <div>
+                <img style="width:40px; height:40px;"src="../images/logo/tesseract-logo-transparent.png" alt="Logo">
+                <p><a href="index.html">TESSERACT</a></p>
+            </div>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </nav> 
+    </header>
+    <h1 style="text-align:center;">Contact Us</h1>
+    <section class="main contactUsPage">
+        <section>
+            <form onsubmit="return validateContactField();" action="https://sit.udst.edu.qa/processform.php" method="POST">
+                <fieldset class="registrationField contactUsField">
+                    <legend>Contact Details</legend>
+                    <section>
+                        <label for="fullName">Full Name</label>
+                        <input type="text" name="fullName" id="fullName" placeholder="Full Name" onblur="validateName();"/>
+                        <span class="errorSpan" id="error-fullName">Enter valid full name!</span>
+                    </section>
+
+                    <section>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Email" onblur="validateEmail();validateMatch('email');">
+                        <span class="errorSpan" id="error-email">Enter valid email!</span>
+                    </section>
+                    
+                    <section>
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="text" name="phoneNumber" id="phoneNumber" value="+974 " onblur="validatePhone();">
+                        <span class="errorSpan" id="error-phoneNumber">Enter valid phone number!</span>
+                    </section>
+
+                    <section>
+                        <label for="message">Your Message</label>
+                        <textarea name="message" id="message" rows="8" placeholder="Enter your message..." onblur="validateMessage();"></textarea>
+                        <span class="errorSpan" id="error-message">Cannot have an empty message!</span>
+                    </section>
+                   
+                    <section class="contactRadioSection">
+                        <label for="contactMethod">Preferred method of contact:</label>
+
+                        <section class="contactRadioButtons">
+                            <div>
+                                <label for="contactPhone">Phone</label>
+                                <input type="radio" name="contactMethod" id="contactPhone" value="Phone">
+                            </div>
+
+                            <div>
+                                <label for="contactEmail">Email</label>
+                                <input type="radio" name="contactMethod" id="contactEmail" value="Email" checked>
+                            </div>
+                            <!-- <input type="radio" name="contactMethod" id="phone" value="Phone"> -->
+                        </section>
+                    </section>
+                </fieldset>
+                <section class="contactUsButtons formButtons">
+                    <input class="button" type="submit" value="Submit">
+                    <input class="button" type="reset" value="Reset">
+                </section>
+            </form>
+        </section>
+        <section>
+            <div id="gMapsEmbed">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3321794215676!2d-122.01154692465337!3d37.334643772099554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb596e9e188fd%3A0x3b0d8391510688f0!2sApple%20Park!5e0!3m2!1sen!2sqa!4v1732291177709!5m2!1sen!2sqa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="addressArea">
+                <p>
+                    Tesseract Ltd. <br>
+                    Cupertino, CA 95014, United States <br>
+                </p>
+                <p>
+                    Operating Hours: <br>
+                        8-5pm Monday-Thursday <br>
+                        8-12pm Sunday <br>
+                </p>
+                <p>
+                    contact-us@tesseract.co <br>
+                    +1-800-692-7753 <br>
+                </p>
+            </div>
+        </section>
+    </section>
+    <script src="../js/script.js"></script>
+    <!-- Footer - Copy Everywhere -->
+    <footer>
+        <p>@ 2022 - 2024 Tesseract<sup>TM</sup> Ltd.</p>
+        <a href="contact-us.html">Contact us</a>&emsp;|&emsp;<a href="subscribe.html">Subscribe</a>&emsp;|&emsp;<a href="faq.html">FAQ</a>
+    </footer>
+</body>
+</html>

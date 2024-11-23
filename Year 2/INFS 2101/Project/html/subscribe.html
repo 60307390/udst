@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Oswald font-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Oswald & Space Grotesk & Exo font-->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Oswald:wght@500&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/logo/tesseract-logo-transparent-icon.ico" type="image/x-icon">
+    <title>Subscribe</title>
+</head>
+<body>
+    <!-- Nav Bar - Copy everywhere -->
+    <header>
+        <nav>
+            <div>
+                <img style="width:40px; height:40px;"src="../images/logo/tesseract-logo-transparent.png" alt="Logo">
+                <p><a href="index.html">TESSERACT</a></p>
+            </div>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+            <li><a href="subscribe.html">Subscribe</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </nav> 
+    </header>
+    <section class="main subscribePage">
+        <h1 style="text-align:center">Subscribe to Us</h1>
+        <form onsubmit="return validateRegistration();" action="https://sit.udst.edu.qa/processform.php" method="POST">
+            <fieldset class="registrationField">
+                <legend>Your Details</legend>
+                <section>
+                    <label for="fullName">Full Name</label>
+                    <input type="text" name="fullName" id="fullName" placeholder="Full Name" onblur="validateName();"/>
+                    <span class="errorSpan" id="error-fullName">Enter valid full name!</span>
+    
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Username" onblur="validateUsername();"/>
+                    <span class="errorSpan" id="error-username">Enter valid username!</span>
+                </section>
+                <section>
+                    <label for="password">Password</label>  
+                    <input type="password" name="password" id="password" placeholder="Password" onblur="validatePassword();validateMatch('password')">
+                    <span class="errorSpan" id="error-password">Enter valid password! (no spaces)</span>
+    
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm password" onblur="validateMatch('password');">
+                    <span class="errorSpan" id="error-confirm-password">Passwords do not match!</span>
+                </section>
+                <section>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Email" onblur="validateEmail();validateMatch('email');">
+                    <span class="errorSpan" id="error-email">Enter valid email!</span>
+    
+                    <label for="confirm-email">Confirm Email</label>
+                    <input type="text" name="confirm-email" id="confirm-email" placeholder="Confirm Email" onblur="validateMatch('email');">
+                    <span class="errorSpan" id="error-confirm-email">Emails do not match!</span>
+                </section>
+                <section id="phoneDateSection">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber" value="+974 " onblur="validatePhone();">
+                    <span class="errorSpan" id="error-phoneNumber">Enter valid phone number!</span>
+   
+                    <section id="dateAgeSection">
+                        <section>
+                            <label for="dateOfBirth">D.O.B</label>
+                            <input type="date" name="dateOfBirth" id="dateOfBirth" onblur="validateDate();">
+                        </section>
+                        
+                        <section>
+                            <label for="age">Age</label>
+                            <input type="number" name="age" id="age" value="18" min="0" max="100">
+                        </section>
+                    </section>
+                    <span class="errorSpan" id="error-dateOfBirth"">Enter valid date of birth!</span>
+                </section>
+            </fieldset>
+            <fieldset class="creditCardField">
+                <legend>Billing Details</legend>
+                <section class="creditCardDetails">
+                    <section>
+                        <label for="creditNum">Credit Card Number</label>
+                        <input type="text" name="creditNum" id="creditNum" placeholder="Credit Card Number" onblur="validateCreditNum();">
+                        <span class="errorSpan" id="error-creditNum">Enter valid credit card number!</span>
+                    </section>
+                    <section>
+                        <label for="expDate">Expiry Date</label>
+                        <input type="date" name="expDate" id="expDate" onblur="validateExpiry();">
+                        <span class="errorSpan" id="error-expDate">Enter valid expiry date!</span>
+                    </section>
+                    <section>
+                        <section id="CVVSection">
+                            <label for="CVV">CVV</label>
+                            <input type="text" name="CVV" id="CVV" placeholder="CVV" onblur="validateCVV();">
+                            <span class="errorSpan" id="error-CVV">Enter valid CVV!</span>
+                        </section>
+                    </section>
+                </section>
+            </fieldset>
+            <fieldset class="addressField">
+                <legend>Shipping Details</legend>
+                <section class="addressDetails">
+                    <section>
+                        <label for="street">Street</label>
+                        <input type="text" name="street" id="street" placeholder="Street" onblur="validateStreet();">
+                        <span class="errorSpan" id="error-street">Street cannot be empty!</span>
+                    </section>
+                    <section>
+                        <label for="buildingNo">Building No.</label>
+                        <input type="text" name="buildingNo" id="buildingNo" placeholder="Building No." onblur="validateBuildingNo();">
+                        <span class="errorSpan" id="error-buildingNo">Enter valid building number!</span>
+                    </section>
+                </section>
+                <section class="addressCity">
+                    <section>
+                        <label for="city">City</label>
+                        <select name="city" id="city">
+                            <option value="Al Shamal">Al Shamal</option>
+                            <option value="Al Khor">Al Khor</option>
+                            <option value="Al Shahnaniya">Al-Shahaniya</option>
+                            <option value="Umm Salal">Umm Salal</option>
+                            <option value="Al Daayen">Al Daayen</option>
+                            <option value="Doha" selected>Doha</option>
+                            <option value="Al Rayyan">Al Rayyan</option>
+                            <option value="Al Wakrah">Al Wakrah</option>
+                        </select>
+                    </section>
+
+                    <section>
+                        <label class="checkboxContainer" for="subscribeValue">Subscribe to newsletter?</label>
+                        <input type="checkbox" class="checkmark" name="subscribeValue" id="subscribeValue">
+                    </section>
+                </section>
+            </fieldset>
+            <section class="formButtons">
+                <input class="button" type="submit" value="Submit">
+                <input class="button" type="reset" value="Reset">
+            </section>
+        </form>
+    </section>
+
+    <script src="../js/script.js"></script>
+    <!-- Footer - Copy Everywhere -->
+    <footer>
+        <p>@ 2022 - 2024 Tesseract<sup>TM</sup> Ltd.</p>
+        <a href="contact-us.html">Contact us</a>&emsp;|&emsp;<a href="subscribe.html">Subscribe</a>&emsp;|&emsp;<a href="faq.html">FAQ</a>
+    </footer>
+</body>
+</html>
