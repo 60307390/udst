@@ -253,8 +253,10 @@ input, select, textarea{
 
     transition:
         border-bottom 0.25s;
-    
-    /* box-shadow:0 0 4px 2px #8d09b2; */
+}
+
+input:hover, select:hover, textarea:hover {
+    border-bottom: 3px solid #a10bcb;
 }
 
 input:focus, select:focus, textarea:focus {
