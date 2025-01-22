@@ -1,0 +1,222 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{amsmath, amsfonts}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{indentfirst}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\fancyfootoffset[]{0.5in}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands (from template)
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Gowshik Rajan}
+\end{center}
+
+
+%-----------INTRODUCTION------------
+\section{Introduction}
+\begin{sloppypar}
+{ \setlength{\parindent}{15pt}
+As a UDST student pursuing a degree in Software Engineering, I bring a strong foundation in mathematics, programming, and problem solving. I possess a basic grasp of several programming languages and am eager to expand my skills in this field. My goal is to leverage my technical knowledge and enthusiasm to contribute effectively to the field of computer science and engineering, math, and related fields. 
+}
+\end{sloppypar}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Shantiniketan Indian School}{Al Wakrah, Qatar}
+      {CBSE curriculum, $91\%$ overall final grade}{Sept. 2012 - Apr. 2023}
+      \resumeItemListStart
+        \resumeItem{$11^\text{th}$ grade : $92\%$ $|$ $12^\text{th}$ grade: $91\%$}
+      \resumeItemListEnd
+    \resumeSubheading
+        {University of Doha for Science and Technology}{Duhail, Qatar}
+        {B.Sc. Software Engineering, cGPA: $3.93$ of $4.00$}{Aug. 2023 - Current}
+        \resumeItemListStart
+            \resumeItem{No. of credits taken: 50}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+%-----------Courses-----------
+\section{Relevant Courses}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+    \textbf{Courses taken in UDST: }
+    \vspace{-2mm}
+    % For table padding
+    \setlength{\tabcolsep}{0.5em}   % Horizontal
+    \renewcommand{\arraystretch}{1.2}   % Vertical 
+    \begin{center}
+    \begin{tabular}{|l|c|c|c|c|}
+        \hline
+        \textbf{Year 1} \; & General Physics I & Calculus I, II & \;Computer Programming\; & Linear Algebra \\
+        \hline
+        \textbf{Year 2} \; & Discrete Mathematics & OOP & Data Structures \& Algorithms & Numerical Analysis \\
+        \hline
+    \end{tabular}
+    \end{center}
+    }
+ \end{itemize}
+
+%-----------Skill and Interests-----------
+\section{Skills \& Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \vspace{1mm}
+     \textbf{Skills}{:} \\
+    \resumeItemListStart
+        \vspace{-2mm}
+        \resumeItem{Strong mathematical knowledge \& skills, problem solving skills.}
+        \resumeItem {Good knowledge of Python; Basic knowledge of C++, C\#, Java.}
+        \resumeItem {Knowledge of \LaTeX\ for mathematical documentation.}
+        \resumeItem {Experience with Git, GitHub; Experience with Linux systems, Unix utilities.}
+    \resumeItemListEnd
+     \vspace{1mm}
+     \textbf{Interests}{: Higher Level Mathematics, Programming, Chess, Fitness.} \\
+     \vspace{1mm}
+
+    }}
+ \end{itemize}
+
+%-----------Extra Info & Links-----------
+\section{Extra Info \& Links}
+
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \vspace{1mm}
+     \textbf{GitHub}{:} \\
+    \resumeItemListStart
+        \vspace{-2mm}
+        \resumeItem{
+        \textbf{Personal Github}: \href{https://www.github.com/scrumpeh-alpha/}{\underline{github.com/scrumpeh-alpha}}
+        }
+        \resumeItem{
+        \textbf{College Github}: \href{https://www.github.com/60307390/}{\underline{github.com/60307390}} $|$ Contains college labs, assignments, projects as well as other related programs.
+        }
+    \resumeItemListEnd
+    
+     \vspace{1mm}
+     
+    \textbf{Notable Projects}{: } \\
+    \resumeItemListStart
+        \vspace{-2mm}
+        \resumeItem{\textbf{Schedule Helper}: To help visualize schedules to pick timings for my courses, I created a python schedule visualizer that helps me calculate compatible timings. \href{https://github.com/60307390/scheduler-udst}{(\underline{Link to source code})}
+        }
+         \resumeItem{\textbf{Static Website}: As part of my Web Programming class, I have created a static website for a fictional company.
+         \href{https://github.com/60307390/udst/tree/main/Year\%202/INFS\%202101/Project}{(\underline{Link to source files})}
+         }
+    \resumeItemListEnd
+     \vspace{1mm}
+    }}
+
+ \end{itemize}
+
+\fancyfoot[C] {
+    \small +974 6625 1796 $|$
+    \href{mailto:gowshikrajanpersonal123@gmail.com}{\underline{gowshikrajanpersonal123@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/gowshik-rajan-2b97ba288/}{\underline{linkedin.com/in/gowshik-rajan}} 
+}
+
+
+\end{document}
