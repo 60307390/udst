@@ -1,0 +1,16 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "course_system_solution.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "prompt-sync": "^4.2.0"
+  }
+}
